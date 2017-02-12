@@ -33,9 +33,10 @@ public class SGD285_1
     public static void Main()
     {
         UserQuote[] userQuotes = new UserQuote[] {
-            new UserQuote("Bahram Dahi", "I have never let my schooling interfere with my education. - [attributed to] Mark Twain"),
+            new UserQuote(/* By Dylan Zuniga: I think this quote is originally from Grant Allen */ "Bahram Dahi", "I have never let my schooling interfere with my education. - [attributed to] Mark Twain"),
 			new UserQuote("Ryan Douglass", "If there is no struggle there is no progress. - Frederick Douglass"),
-				new UserQuote("Baylen Smith", "Whatever happens, happens. - Spike Spiegel")
+			new UserQuote("Baylen Smith", "Whatever happens, happens. - Spike Spiegel"),
+            new UserQuote("Dylan Zuniga", "All the love as always. H - Harry Styles")
             // add the next user here using the formula above, don't forget the comma to separate the items in the initialization list. 
             // IMPORTANT: If there is a conflict, you MUST fix it, compile to make sure 
             // your program compiles and runs locally, then push to the git repository on GitHub.
